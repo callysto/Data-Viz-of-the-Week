@@ -1,3 +1,5 @@
 # Weekly Data Visualizations
 
-The goal is to create weekly visualizations with pyplot and seaborn and balancing high quality products and short readable code all while using public datasets. This means some visualizations won't be perfect by design - but the product should be accurate and of good quality. Students and teachers should be able to follow, using the .ipynb, the practice of data exploration and understand what the code is doing (and hopefully experiment with modifying the code). I choose pyplot and seaboard because of their relatively flexibility and ease of use. Tools like plotly are great but once you want to change aspects the code gets a bit dense very quickly.  
+The goal is to create weekly visualizations with [pyplot](https://matplotlib.org/tutorials/introductory/pyplot.html), [seaborn](https://seaborn.pydata.org), and [plotly](https://plotly.com/python/plotly-express/), balancing high quality visualizations and short readable code using public datasets.
+
+This means some visualizations won't be perfect, but should be accurate and of good quality. Students and teachers should be able to follow the data exploration while understanding, and hopefully modifying, the code.
