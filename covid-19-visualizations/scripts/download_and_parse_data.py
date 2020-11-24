@@ -1,6 +1,6 @@
 # Author: Laura Gutierrez Funderburk
 # Created on: April 2020
-# Last modified on: Sep 2020
+# Last modified on: Nov 2020
 
 """
 This script pulls COVID 19 data and creates interactive plots of COVID 19 cases in the world. 
@@ -20,6 +20,7 @@ import numpy as np
 from ipywidgets import widgets
 from IPython.display import display, Javascript, Markdown, HTML, clear_output
 from ipywidgets import interact, interact_manual, widgets, Layout, VBox, HBox, Button,fixed,interactive
+import plotly.io as pio
 
 
 def extract_latest(final_df):
@@ -120,48 +121,65 @@ def order_dates(flat_df):
 
 
 # We will plot the log projection along with the cumulative number of cases
-def plot_log_function(country,final_df,type_case,case):
+def plot_log_function(country,final_df,type_case,case,log_scale):
     
     latest_arr = []
     date_arr = []
-    for item in final_df[final_df.index==country].iloc[:,0:-5].columns:
+    for item in final_df[final_df.index==country].iloc[:,0:-6].columns:
         date_arr.append(item)
         latest_arr.append(final_df[final_df.index==country][item].sum())
 
     final_confirmed_red = pd.DataFrame({"Date":date_arr,"CumulativeTotal":latest_arr})
+    # Compute rolling average
+    final_confirmed_red['RollingAverage'] = final_confirmed_red.rolling(window=5).mean()
+    # Compute raw case count
     non_cumulative_cases = final_confirmed_red.diff(axis=0)
     
     
     x = final_confirmed_red.Date
-    if case==True:
-        y = final_confirmed_red.CumulativeTotal
-    else:
+    
+    # Select the plot type 
+    if case=='Daily counts':
         y = non_cumulative_cases.CumulativeTotal
+        phrase = "Daily number"
+    elif case=='Rolling average':
+        y = non_cumulative_cases.RollingAverage
+        phrase = "Rolling average"
+    elif case=='Cumulative counts':
+        y = final_confirmed_red.CumulativeTotal
+        phrase = "Cumulative number"
     
     npy = np.array(y.to_list())
-    l_y = np.log10(npy, where=0<npy, out=np.nan*npy)
+    if log_scale=='Base 10':
+        l_y = np.log10(npy, where=0<npy, out=np.nan*npy)
+    elif log_scale=='Base 2':
+        l_y = np.log2(npy, where=0<npy, out=np.nan*npy)
 
 
     trace1 = go.Bar(x=x,y=y,name=country)
     trace2 = go.Scatter(x=x,y=l_y,name='Log ' + str(country),yaxis='y2')
     layout = go.Layout(
-        title= ('Number of ' + str(type_case) + ' cases for ' + str(country)),
-        yaxis=dict(title='Total Number of ' + str(type_case).capitalize() + ' Cases',\
+        title= (phrase + ' of COVID-19 ' + str(type_case)+ ' cases in ' + str(country)),
+        yaxis=dict(title=phrase + ' of COVID-19 ' + str(type_case)+ ' cases in ' + str(country),\
                    titlefont=dict(color='blue'), tickfont=dict(color='blue')),
         yaxis2=dict(title=str(type_case).capitalize()  + ' Cases (logarithmic scale)', titlefont=dict(color='red'), \
                     tickfont=dict(color='red'), overlaying='y', side='right'),
         showlegend=False)
     fig = go.Figure(data=[trace1,trace2],layout=layout)
     fig.update_yaxes(showgrid=True)
+    pio.write_html(fig,str(type_case) + "_" + str(country) + "_" +".html", auto_open=False)
     fig.show()   
+    
+    
     
 def draw_results(b):
     country = all_the_widgets[0].value
-    case = all_the_widgets[1].value
+    log_scale = "Base 2"
+    case = "Rolling average"
     clear_output()
     display(tab)  ## Have to redraw the widgets
-    plot_log_function(country,final_confirmed,"confirmed",case)
-    plot_log_function(country,final_deaths,"fatal",case)
+    plot_log_function(country,final_confirmed,"reported",case,log_scale)
+    plot_log_function(country,final_deaths,"fatal",case,log_scale)
 
 if __name__ == "__main__":
 
@@ -251,15 +269,7 @@ if __name__ == "__main__":
         description='Choose a country:',
         ensure_option=True,
         disabled=False,
-        style=style
-    ),
-widgets.Checkbox(
-    value=False,
-    description='Get cumulative results',
-    disabled=False,
-    indent=False,
-    style=style
-)]
+        style=style)]
 
     # Button widget
     CD_button = widgets.Button(
@@ -274,7 +284,7 @@ widgets.Checkbox(
     CD_button.on_click( draw_results )
 
     # user menu using categories found above
-    tab3 = VBox(children=[HBox(children=all_the_widgets[0:2]),HBox(children=all_the_widgets[2:5]),
+    tab3 = VBox(children=[HBox(children=all_the_widgets[0:3]),
                           CD_button])
     tab = widgets.Tab(children=[tab3])
     tab.set_title(0, 'Choose Parameters')
