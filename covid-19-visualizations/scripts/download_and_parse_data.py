@@ -1,6 +1,6 @@
 # Author: Laura Gutierrez Funderburk
 # Created on: April 2020
-# Last modified on: Sep 2020
+# Last modified on: Nov 2020
 
 """
 This script pulls COVID 19 data and creates interactive plots of COVID 19 cases in the world. 
