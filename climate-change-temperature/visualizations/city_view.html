@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e464400c15524934b9e2bf1fdca24c5f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e464400c15524934b9e2bf1fdca24c5f" ></div>
+        
+</body>
+<script>    
+    
+            var map_e464400c15524934b9e2bf1fdca24c5f = L.map(
+                "map_e464400c15524934b9e2bf1fdca24c5f",
+                {
+                    center: [60.0, -96.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1328bf3df30c413ba37fe52650c58308 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e464400c15524934b9e2bf1fdca24c5f);
+        
+    
+            var marker_8e3aed06841a4de9a715f898c17a6af6 = L.marker(
+                [53.54, -113.5],
+                {}
+            ).addTo(map_e464400c15524934b9e2bf1fdca24c5f);
+        
+    
+            var icon_2f44286ef1ec4eb18df4e4af281c04c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-plus", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8e3aed06841a4de9a715f898c17a6af6.setIcon(icon_2f44286ef1ec4eb18df4e4af281c04c4);
+        
+    
+        var popup_17aa5c60cfd3420e8de617334d927ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22567425a6c4495aba7a03eb40408970 = $(`<div id="html_22567425a6c4495aba7a03eb40408970" style="width: 100.0%; height: 100.0%;">Temperature rise is 3.10 degrees per century</div>`)[0];
+            popup_17aa5c60cfd3420e8de617334d927ad9.setContent(html_22567425a6c4495aba7a03eb40408970);
+        
+
+        marker_8e3aed06841a4de9a715f898c17a6af6.bindPopup(popup_17aa5c60cfd3420e8de617334d927ad9)
+        ;
+
+        
+    
+    
+            marker_8e3aed06841a4de9a715f898c17a6af6.bindTooltip(
+                `<div>
+                     Edmonton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5330fc632aff4ab687eca77f76f23f53 = L.marker(
+                [46.65, -79.38],
+                {}
+            ).addTo(map_e464400c15524934b9e2bf1fdca24c5f);
+        
+    
+            var icon_817fa41cbf6a4222b9cb92d45d6d29fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-plus", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5330fc632aff4ab687eca77f76f23f53.setIcon(icon_817fa41cbf6a4222b9cb92d45d6d29fd);
+        
+    
+        var popup_3b392d50193846e1a4bdfd3d3d5f33c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a805f500aba4153bc7b1747eccdccec = $(`<div id="html_1a805f500aba4153bc7b1747eccdccec" style="width: 100.0%; height: 100.0%;">Temperature rise is 2.47 degrees per century</div>`)[0];
+            popup_3b392d50193846e1a4bdfd3d3d5f33c5.setContent(html_1a805f500aba4153bc7b1747eccdccec);
+        
+
+        marker_5330fc632aff4ab687eca77f76f23f53.bindPopup(popup_3b392d50193846e1a4bdfd3d3d5f33c5)
+        ;
+
+        
+    
+    
+            marker_5330fc632aff4ab687eca77f76f23f53.bindTooltip(
+                `<div>
+                     Toronto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a350133d4fa94eb18d0f103fee2993ab = L.marker(
+                [49.28, -123.12],
+                {}
+            ).addTo(map_e464400c15524934b9e2bf1fdca24c5f);
+        
+    
+            var icon_ce4e65cb3a6e479b80c844cdbb21b478 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-plus", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a350133d4fa94eb18d0f103fee2993ab.setIcon(icon_ce4e65cb3a6e479b80c844cdbb21b478);
+        
+    
+        var popup_1a330c2d52684530812ca780fe805d05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23529196ed3046258dad0a0e4b54fcf9 = $(`<div id="html_23529196ed3046258dad0a0e4b54fcf9" style="width: 100.0%; height: 100.0%;">Temperature rise is 1.73 degrees per century</div>`)[0];
+            popup_1a330c2d52684530812ca780fe805d05.setContent(html_23529196ed3046258dad0a0e4b54fcf9);
+        
+
+        marker_a350133d4fa94eb18d0f103fee2993ab.bindPopup(popup_1a330c2d52684530812ca780fe805d05)
+        ;
+
+        
+    
+    
+            marker_a350133d4fa94eb18d0f103fee2993ab.bindTooltip(
+                `<div>
+                     Vancouver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cc4ff1c7d9348f6a025bc1c96d523ad = L.marker(
+                [49.96, -66.64],
+                {}
+            ).addTo(map_e464400c15524934b9e2bf1fdca24c5f);
+        
+    
+            var icon_c718ce8d1b344623ab7279f0816ebc00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-plus", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6cc4ff1c7d9348f6a025bc1c96d523ad.setIcon(icon_c718ce8d1b344623ab7279f0816ebc00);
+        
+    
+        var popup_3d5ca975f4c04d6fb18602fac65a9556 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a00b4c204a8441898ec2a131e671670e = $(`<div id="html_a00b4c204a8441898ec2a131e671670e" style="width: 100.0%; height: 100.0%;">Temperature rise is 0.97 degrees per century</div>`)[0];
+            popup_3d5ca975f4c04d6fb18602fac65a9556.setContent(html_a00b4c204a8441898ec2a131e671670e);
+        
+
+        marker_6cc4ff1c7d9348f6a025bc1c96d523ad.bindPopup(popup_3d5ca975f4c04d6fb18602fac65a9556)
+        ;
+
+        
+    
+    
+            marker_6cc4ff1c7d9348f6a025bc1c96d523ad.bindTooltip(
+                `<div>
+                     Fredericton
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f1e98323e104617aaa44989f2aff570 = L.marker(
+                [62.27, -114.21],
+                {}
+            ).addTo(map_e464400c15524934b9e2bf1fdca24c5f);
+        
+    
+            var icon_37ebd4ff6f6a435b840e32e6ed49d9aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glyphicon-plus", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5f1e98323e104617aaa44989f2aff570.setIcon(icon_37ebd4ff6f6a435b840e32e6ed49d9aa);
+        
+    
+        var popup_55021cd6e3f141ef8527c892c59649ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_111a350b7e5e4d64b64cea052e0783f8 = $(`<div id="html_111a350b7e5e4d64b64cea052e0783f8" style="width: 100.0%; height: 100.0%;">Temperature rise is  3.45 degrees per century</div>`)[0];
+            popup_55021cd6e3f141ef8527c892c59649ef.setContent(html_111a350b7e5e4d64b64cea052e0783f8);
+        
+
+        marker_5f1e98323e104617aaa44989f2aff570.bindPopup(popup_55021cd6e3f141ef8527c892c59649ef)
+        ;
+
+        
+    
+    
+            marker_5f1e98323e104617aaa44989f2aff570.bindTooltip(
+                `<div>
+                     Yellowknife
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
