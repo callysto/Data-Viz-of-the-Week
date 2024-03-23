@@ -1,0 +1,138 @@
+# name: RollerCoasterDataExperienceFULL635
+# source: RollerCoasterDataExperienceFULL635.csv
+# importDate: 2020-06-09T13:04:50.052Z
+# attribute -- name: Coaster, description: Name of the roller coaster, type: categorical, precision: 2, editable: true
+# attribute -- name: Park, description: Name of the park where the roller coaster is located, type: categorical, precision: 2, editable: true
+# attribute -- name: City, description: City where the roller coaster is located, type: categorical, precision: 2, editable: true
+# attribute -- name: State, description: State where the roller coaster is located, type: categorical, precision: 2, editable: true
+# attribute -- name: Year Opened, description: Year when roller coaster opened, type: date, precision: year, editable: true
+# attribute -- name: TopSpeed, description: Maximum speed of roller coaster, type: numeric, unit: mph, precision: 2, editable: true
+# attribute -- name: MaxHeight, description: Highest point of roller coaster, type: numeric, unit: ft, precision: 2, editable: true
+# attribute -- name: Duration, description: Time length of roller coaster ride, type: numeric, unit: s, precision: 2, editable: true
+# attribute -- name: Type, description: Material of track (Steel or Wooden), type: categorical, precision: 2, editable: true
+# attribute -- name: Length, description: Length of roller coaster track, type: numeric, unit: ft, precision: 2, editable: true
+# attribute -- name: Drop, description: Length of largest gap between high and low points of roller coaster, type: numeric, unit: ft, precision: 2, editable: true
+# attribute -- name: # of Inversions, description: Number of times roller coaster flips passengers, type: numeric, precision: 2, editable: true
+Coaster,Park,City,State,Year Opened,TopSpeed,MaxHeight,Duration,Type,Length,Drop,# of Inversions
+Desert Storm,Castles n' Coasters,Phoenix,Arizona,1992,50,90,119,Steel,2000,85,2
+Patriot,Castles n' Coasters,Phoenix,Arizona,1992,25,35,164,Steel,700,30,0
+Superman: Escape from Krypton,Six Flags Magic Mountain,Valencia,California,1997,100,415,28,Steel,1235,328.1,0
+Giant Dipper,Santa Cruz Beach Boardwalk,Santa Cruz,California,1924,55,70,112,Wood,2640,65,0
+Montezooma's Revenge,Knott's Berry Farm,Buena Park,California,1978,55,148,36,Steel,800,137,1
+New Revolution,Six Flags Magic Mountain,Valencia,California,1976,55,113,132,Steel,3457,72,1
+Giant Dipper,Belmont Park,San Diego,California,1925,55,73,113,Wood,2600,62,0
+Gold Rusher,Six Flags Magic Mountain,Valencia,California,1971,35,70,150,Steel,2590,35,0
+Big Thunder Mountain Railroad,Disneyland,Anaheim,California,1979,28,,,Steel,2671,,0
+Magic Flyer,Six Flags Magic Mountain,Valencia,California,1971,10,10,,Steel,350,8,0
+Matterhorn Bobsleds,Disneyland,Anaheim,California,1959,,80,127,Steel,2037,,0
+Viper,Six Flags Magic Mountain,Valencia,California,1990,70,188,150,Steel,3830,171,7
+Riddler's Revenge,Six Flags Magic Mountain,Valencia,California,1998,65,156,180,Steel,4370,146,6
+GhostRider,Knott's Berry Farm,Buena Park,California,1998,56,118,160,Wood,4533,108,0
+Grizzly,California's Great America,Santa Clara,California,1986,55,91,160,Wood,3250,88,0
+Ninja,Six Flags Magic Mountain,Valencia,California,1988,55,85,90,Steel,2700,75,0
+Demon,California's Great America,Santa Clara,California,1980,50,102,105,Steel,2130,90,4
+Flight Deck,California's Great America,Santa Clara,California,1993,50,102,146,Steel,2260,91,3
+Batman The Ride,Six Flags Magic Mountain,Valencia,California,1994,50,105,120,Steel,2700,84.5,5
+Kong,Six Flags Discovery Kingdom,Vallejo,California,1998,49.7,109.3,96,Steel,2260.5,95,5
+Boomerang Coast to Coaster,Six Flags Discovery Kingdom,Vallejo,California,1998,47,116.5,108,Steel,935,116,3
+Patriot,California's Great America,Santa Clara,California,1991,45,91,134,Steel,1920,80,2
+Jaguar!,Knott's Berry Farm,Buena Park,California,1995,35,65,120,Steel,2602,45,0
+Santa Monica West Coaster,Pacific Park,Santa Monica,California,1996,35,55,60,Steel,1300,20,0
+Dragon,Legoland California,Carlsbad,California,1999,28,42.7,177,Steel,1400,,0
+Gadget's Go Coaster,Disneyland,Anaheim,California,1993,21.7,27.9,44,Steel,679.2,20,0
+Roadrunner Express,Six Flags Discovery Kingdom,Vallejo,California,1999,15,15,73,Steel,262.5,13,0
+Canyon Blaster,Six Flags Magic Mountain,Valencia,California,1999,10,8,52,Steel,416,6,0
+Dragon Roller Coaster,Pixieland Amusement Park,Concord,California,1995,8,11,90,Steel,280,8,0
+Flying Dragon,Funderland Amusement Park,Sacramento,California,1990,8,11,90,Steel,280,8,0
+Timberline Twister,Knott's Berry Farm,Buena Park,California,1983,,30,55,Steel,480,10,0
+Freeway Coaster,Adventure City,Anaheim,California,1994,,16,57,Steel,280,13,0
+Goliath,Six Flags Magic Mountain,Valencia,California,2000,85,235,180,Steel,4500,255,0
+Full Throttle,Six Flags Magic Mountain,Valencia,California,2013,70,164,90,Steel,2200,,2
+Medusa,Six Flags Discovery Kingdom,Vallejo,California,2000,65,150,195,Steel,3937,150,7
+Flash: Vertical Velocity,Six Flags Discovery Kingdom,Vallejo,California,2001,65,185,74,Steel,630,160,1
+Scream!,Six Flags Magic Mountain,Valencia,California,2003,63,150,180,Steel,3985,141,7
+Tatsu,Six Flags Magic Mountain,Valencia,California,2006,62,170,133,Steel,3602,111,4
+Electric Eel,SeaWorld San Diego,San Diego,California,2018,62,150,102,Steel,863,135,1
+Superman Ultimate Flight,Six Flags Discovery Kingdom,Vallejo,California,2012,62,150,,Steel,863,135,1
+Twisted Colossus,Six Flags Magic Mountain,Valencia,California,2015,57,121,220,Steel,4990,128,2
+HangTime,Knott's Berry Farm,Buena Park,California,2018,57,150,129,Steel,2198,122,5
+Silver Bullet,Knott's Berry Farm,Buena Park,California,2004,55,146,150,Steel,3125,109,6
+Incredicoaster,Disney California Adventure Park,Anaheim,California,2001,55,120,156,Steel,6072,108,1
+West Coast Racers,Six Flags Magic Mountain,Valencia,California,2020,55,67,180,Steel,4000,,4
+Gold Striker,California's Great America,Santa Clara,California,2013,53.7,108.2,150,Wood,3197,103,0
+Joker,Six Flags Discovery Kingdom,Vallejo,California,2016,53,100,101,Steel,3200,96,3
+RailBlazer,California's Great America,Santa Clara,California,2018,52,106,60,Steel,1800,102,3
+Apocalypse the Ride,Six Flags Magic Mountain,Valencia,California,2009,50.1,95,180,Wood,2877,87.3,0
+Sea Serpent,Santa Cruz Beach Boardwalk,Santa Cruz,California,2000,47,125,113,Steel,972,116,0
+Manta,SeaWorld San Diego,San Diego,California,2012,43,30,120,Steel,2800,54,0
+Journey to Atlantis,SeaWorld San Diego,San Diego,California,2004,42,100,300,Steel,780,60,0
+Revenge of the Mummy the Ride,Universal Studios Hollywood,Universal City,California,2004,40,44.4,120,Steel,1906,25,0
+Undertow,Santa Cruz Beach Boardwalk,Santa Cruz,California,2013,40,50,,Steel,1410,,0
+Batman The Ride,Six Flags Discovery Kingdom,Vallejo,California,2019,38,120,144,Steel,1019,55,0
+Pony Express,Knott's Berry Farm,Buena Park,California,2008,38,44.3,,Steel,1250,,0
+Sierra Sidewinder,Knott's Berry Farm,Buena Park,California,2007,37,62.3,78,Steel,1410.8,39,0
+Technic Coaster,Legoland California,Carlsbad,California,2001,35,51.8,115,Steel,1312.3,49.8,0
+Coast Rider,Knott's Berry Farm,Buena Park,California,2013,35,52,98,Steel,1339,50,0
+Quicksilver Express,Gilroy Gardens Family Theme Park,Gilroy,California,2001,32,38,95,Steel,2139,,0
+Rewind Racers,Adventure City,Anaheim,California,2015,31.1,39.3,,Steel,593.8,,0
+Space Mountain,Disneyland,Anaheim,California,2005,30.2,100,170,Steel,3035,15,0
+Psycho Mouse,California's Great America,Santa Clara,California,2001,30,58,90,Steel,1257,,0
+Tidal Twister,SeaWorld San Diego,San Diego,California,2019,30,22,,Steel,320,,1
+Flight of the Hippogriff,Universal Studios Hollywood,Universal City,California,2016,28,43,70,Steel,984.3,30,0
+Goofy's Sky School,Disney California Adventure Park,Anaheim,California,2001,27,50,90,Steel,1214,20,0
+Ridge Rider Mountain Coaster,Heavenly Mountain Resort,South Lake Tahoe,California,2016,26,,,Steel,3400,300,0
+Cobra,Six Flags Discovery Kingdom,Vallejo,California,2000,22.4,26.3,129,Steel,1181.1,25,0
+Merlin's Revenge,Castle Amusement Park,Riverside,California,2001,21.7,27.9,44,Steel,679.2,20,0
+Road Runner Express,Six Flags Magic Mountain,Valencia,California,2011,21.7,27.9,44,Steel,679.2,19,0
+Timber Twister,Gilroy Gardens Family Theme Park,Gilroy,California,2001,21,26,50,Steel,655,25,0
+Coastersaurus,Legoland California,Carlsbad,California,2004,20.5,18.1,67,Steel,492.2,,0
+Speedy Gonzales Hot Rod Racers,Six Flags Magic Mountain,Valencia,California,2014,14,13.1,54,Steel,262.5,7,0
+Dragon Roller Coaster,Fiesta Village Family Fun Park,Colton,California,2016,8,9,45,Steel,,,0
+Little Dipper,Castle Amusement Park,Riverside,California,2002,7,12,50,Steel,280,6,0
+Crazy Dane Coaster,Scandia Family Fun Center,Sacramento,California,2015,,35,92,Steel,1100,25,0
+Pacific Fruit Express,Happy Hollow Park and Zoo,San Jose,California,2010,,16,56,Steel,,,0
+Wild Chipmunk,Lakeside Amusement Park,Denver,Colorado,1955,21,41,48,Steel,1150,15,0
+Cyclone,Lakeside Amusement Park,Denver,Colorado,1940,55,80,120,Wood,2800,80,0
+Twister II,Elitch Gardens,Denver,Colorado,1995,55,100,137,Wood,4640,80,0
+Mind Eraser,Elitch Gardens,Denver,Colorado,1997,49.7,109.3,96,Steel,2260.5,86,5
+Boomerang,Elitch Gardens,Denver,Colorado,1999,47,116.5,108,Steel,935,125,3
+Sidewinder,Elitch Gardens,Denver,Colorado,1995,45,56,66,Steel,635,47,1
+Half Pipe,Elitch Gardens,Denver,Colorado,2004,43.5,98.4,120,Steel,229.7,80,0
+Cliffhanger,Glenwood Caverns Adventure Park,Glenwood Springs,Colorado,2012,25,59,94,Steel,1430,30,0
+Wild West Express,Glenwood Caverns Adventure Park,Glenwood Springs,Colorado,2012,16.2,10.8,,Steel,197.5,8,0
+Blazin' Buckaroo,Elitch Gardens,Denver,Colorado,2013,15,16,,Steel,337,13,0
+Dragon Coaster,Mile High Flea Market,Henderson,Colorado,2000,8,9,45,Steel,,,0
+Kiddie Coaster,Lakeside Amusement Park,Denver,Colorado,2001,,18,73,Steel,300,10,0
+Timber Terror,Silverwood Theme Park,Athol,Idaho,1996,55,85,92,Wood,2700,81,0
+Tremors,Silverwood Theme Park,Athol,Idaho,1999,50,85,100,Wood,3158,99,0
+Corkscrew,Silverwood Theme Park,Athol,Idaho,1990,46,70,73,Steel,1250,62,2
+Aftershock,Silverwood Theme Park,Athol,Idaho,2008,65.6,191.6,92,Steel,1204,177,3
+Krazy Koaster,Silverwood Theme Park,Athol,Idaho,2014,,14,,Steel,190,,0
+Log Roller Coaster,Yellowstone Bear World,Rexburg,Idaho,2016,,14,,Steel,190,,0
+Desperado,Buffalo Bill's Resort & Casino,Primm,Nevada,1994,80,209,163,Steel,5843,225,0
+Big Apple Coaster,"New York, New York Hotel & Casino",Las Vegas,Nevada,1997,67,203,160,Steel,4777,144,2
+Canyon Blaster,Adventuredome,Las Vegas,Nevada,1993,41,94,90,Steel,2423,66,4
+El Loco,Adventuredome,Las Vegas,Nevada,2014,45,90,73,Steel,1300,80,2
+Dragon Coaster,Las Vegas Mini Gran Prix,Las Vegas,Nevada,2000,8,9,45,Steel,,,0
+Galaxi,Cliff's Amusement Park,Albuquerque,New Mexico,1977,35,45,122,Steel,1650,32,0
+New Mexico Rattler,Cliff's Amusement Park,Albuquerque,New Mexico,2002,47,80,75,Wood,2750,75,0
+Hurricane,Western Playland,Sunland Park,New Mexico,2013,35,50,50,Steel,1430,30,0
+Spinning Coaster,Western Playland,Sunland Park,New Mexico,2014,,14,108,Steel,190,6,0
+Spin-O-Rama,Cliff's Amusement Park,Albuquerque,New Mexico,2016,,14,,Steel,190,,0
+Ice Mountain Bobsled,Enchanted Forest,Turner,Oregon,1983,35,55,150,Steel,1600,,0
+Big Timber Log Ride,Enchanted Forest,Turner,Oregon,1996,30,50,330,Steel,,40,0
+Adrenaline Peak,Oaks Amusement Park,Portland,Oregon,2018,45,72,66,Steel,1050,70,3
+Jet Star 2,Lagoon,Farmington,Utah,1976,45,44.3,90,Steel,1919.3,42,0
+Roller Coaster,Lagoon,Farmington,Utah,1921,45,62,,Wood,2500,,0
+Colossus the Fire Dragon,Lagoon,Farmington,Utah,1983,49.1,86.9,105,Steel,2296.6,81,2
+Wild Mouse,Lagoon,Farmington,Utah,1998,28,49.3,70,Steel,1213.9,25,0
+Puff the Little Fire Dragon,Lagoon,Farmington,Utah,1985,16.2,10.8,,Steel,197.5,,0
+Cannibal,Lagoon,Farmington,Utah,2015,70,208,150,Steel,2735,203,4
+Wicked,Lagoon,Farmington,Utah,2007,55,110,106,Steel,2050.5,90,1
+Spider,Lagoon,Farmington,Utah,2003,37.3,50.8,70,Steel,1391.1,,0
+Bombora,Lagoon,Farmington,Utah,2011,31,45,71,Steel,1040,,0
+Bat,Lagoon,Farmington,Utah,2005,26,48.6,90,Steel,1122.1,,0
+Classic Coaster,Washington State Fair,Puyallup,Washington,1935,50,55,105,Wood,2650,52,0
+Wild Thing,Wild Waves Theme & Water Park,Federal Way,Washington,1997,40,75,60,Steel,1565,64,3
+Timberhawk: Ride of Prey,Wild Waves Theme & Water Park,Federal Way,Washington,2003,50,75,,Wood,2600,,0
+Klondike Gold Rusher,Wild Waves Theme & Water Park,Federal Way,Washington,2002,35,70,54,Steel,2590,35,0

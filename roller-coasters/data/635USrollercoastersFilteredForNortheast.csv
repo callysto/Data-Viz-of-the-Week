@@ -1,0 +1,172 @@
+# name: RollerCoasterDataExperienceFULL635
+# source: RollerCoasterDataExperienceFULL635.csv
+# importDate: 2020-06-09T13:04:50.052Z
+# attribute -- name: Coaster, description: Name of the roller coaster, type: categorical, precision: 2, editable: true
+# attribute -- name: Park, description: Name of the park where the roller coaster is located, type: categorical, precision: 2, editable: true
+# attribute -- name: City, description: City where the roller coaster is located, type: categorical, precision: 2, editable: true
+# attribute -- name: State, description: State where the roller coaster is located, type: categorical, precision: 2, editable: true
+# attribute -- name: Year Opened, description: Year when roller coaster opened, type: numeric, editable: true
+# attribute -- name: TopSpeed, description: Maximum speed of roller coaster, type: numeric, unit: mph, precision: 2, editable: true
+# attribute -- name: MaxHeight, description: Highest point of roller coaster, type: numeric, unit: ft, precision: 2, editable: true
+# attribute -- name: Duration, description: Time length of roller coaster ride, type: numeric, unit: s, precision: 2, editable: true
+# attribute -- name: Type, description: Material of track (Steel or Wooden), type: categorical, precision: 2, editable: true
+# attribute -- name: Length, description: Length of roller coaster track, type: numeric, unit: ft, precision: 2, editable: true
+# attribute -- name: Drop, description: Length of largest gap between high and low points of roller coaster, type: numeric, unit: ft, precision: 2, editable: true
+# attribute -- name: # of Inversions, description: Number of times roller coaster flips passengers, type: numeric, precision: 2, editable: true
+Coaster,Park,City,State,Year Opened,TopSpeed,MaxHeight,Duration,Type,Length,Drop,# of Inversions
+Wildcat,Lake Compounce,Bristol,Connecticut,1927,48,85,75,Wood,2746,78,0
+Little Dipper,Quassy Amusement Park,Middlebury,Connecticut,1952,7,12,50,Steel,280,6,0
+Kiddie Coaster,Lake Compounce,Bristol,Connecticut,1997,,18,73,Steel,300,10,0
+Phobia Phear Coaster,Lake Compounce,Bristol,Connecticut,2016,62,150,,Steel,863,135,1
+Boulder Dash,Lake Compounce,Bristol,Connecticut,2000,60,110,150,Wood,4725,115,0
+Excalibur,Funtown Splashtown U.S.A.,Saco,Maine,1998,55,100,118,Wood,2700,82,0
+Sea Viper,Palace Playland,Old Orchard Beach,Maine,2018,41.1,68.8,,Steel,1509.2,,0
+Wild Mouse,Funtown Splashtown U.S.A.,Saco,Maine,2009,28,49.3,70,Steel,1213.9,25,0
+Orient Express,Palace Playland,Old Orchard Beach,Maine,2000,10,11,164,Steel,280,8,0
+Wacky Mouse,York's Wild Kingdom,York Beach,Maine,2010,,16,82,Steel,,,0
+Thunderbolt,Six Flags New England,Agawam,Massachusetts,1941,40,70,60,Wood,2600,70,0
+Riddler Revenge,Six Flags New England,Agawam,Massachusetts,1997,49.7,109.3,96,Steel,2260.5,86,5
+Great Chase,Six Flags New England,Agawam,Massachusetts,1996,12,16,25,Steel,337,13,0
+Superman the Ride,Six Flags New England,Agawam,Massachusetts,2000,77,208,155,Steel,5400,221,0
+Goliath,Six Flags New England,Agawam,Massachusetts,2012,65.6,191.6,92,Steel,1204,177,3
+Batman - The Dark Knight,Six Flags New England,Agawam,Massachusetts,2002,55,117.8,140,Steel,2600,110.3,5
+Wicked Cyclone,Six Flags New England,Agawam,Massachusetts,2015,55,109,137,Steel,3320,90,3
+Flashback,Six Flags New England,Agawam,Massachusetts,2000,47,116.5,108,Steel,935,34,3
+Joker,Six Flags New England,Agawam,Massachusetts,2017,38,120,60,Steel,1019,54,0
+Pandemonium,Six Flags New England,Agawam,Massachusetts,2005,31,45,60,Steel,1345,27,0
+Gotham City Gauntlet Escape from Arkham Asylum,Six Flags New England,Agawam,Massachusetts,2011,28,49.3,92,Steel,1213.9,25,0
+Catwoman's Whip,Six Flags New England,Agawam,Massachusetts,2000,22.4,26.3,62,Steel,1181.1,26,0
+Troublesome Trucks Runaway Coaster,Edaville Family Theme Park,Carver,Massachusetts,2015,19,29.5,100,Steel,574,,0
+Spinning Lady Bug Coaster,Edaville Family Theme Park,Carver,Massachusetts,2015,,14,77,Steel,190,8,0
+Canobie Corkscrew,Canobie Lake Park,Salem,New Hampshire,1987,45,73,90,Steel,1250,65,2
+Polar Coaster,Story Land,Glen,New Hampshire,1987,25,20,95,Steel,1170,,0
+Rudy's Rapid Transit,Santa's Village,Jefferson,New Hampshire,1988,22.4,26.3,,Steel,1181.1,25,0
+Untamed,Canobie Lake Park,Salem,New Hampshire,2011,43.5,72.2,51,Steel,1184.4,72,3
+Roar-O-Saurus,Story Land,Glen,New Hampshire,2014,33,40,70,Wood,1240,38,0
+Orient Express,Funworld Game Center,Nashua,New Hampshire,2005,10,11,224,Steel,280,8,0
+Kingda Ka,Six Flags Great Adventure,Jackson,New Jersey,2005,128,456,28,Steel,3118,418,0
+Runaway Mine Train,Six Flags Great Adventure,Jackson,New Jersey,1974,38,60,120,Steel,2665,39,0
+Bizarro,Six Flags Great Adventure,Jackson,New Jersey,1999,61,142,140,Steel,3985,132,7
+Great Nor'Easter,Morey's Piers,Wildwood,New Jersey,1995,55,115,125,Steel,2170,95,5
+Great White,Morey's Piers,Wildwood,New Jersey,1996,50,110,120,Wood,3300,100,0
+Batman The Ride,Six Flags Great Adventure,Jackson,New Jersey,1993,50,105,90,Steel,2693,80,5
+Sea Serpent,Morey's Piers,Wildwood,New Jersey,1984,47,125,108,Steel,935,116,3
+Sea Serpent,Keansburg Amusement Park,Keansburg,New Jersey,1998,47,125,108,Steel,935,116,0
+Skull Mountain,Six Flags Great Adventure,Jackson,New Jersey,1996,33,40.5,84,Steel,1377,37,0
+Crazy Mouse,Steel Pier,Atlantic City,New Jersey,1999,29.1,42.7,90,Steel,1377.9,30,0
+Rollies Coaster,Morey's Piers,Wildwood,New Jersey,1999,27,33,58,Steel,1100,25,0
+Harley Quinn Crazy Train,Six Flags Great Adventure,Jackson,New Jersey,1999,22.4,26.3,65,Steel,1181.1,25,0
+Thriller,Land Of Make Believe,Hope,New Jersey,1994,8,10,57,Steel,220,9,0
+Nitro,Six Flags Great Adventure,Jackson,New Jersey,2001,80,230,140,Steel,5394,215,0
+El Toro,Six Flags Great Adventure,Jackson,New Jersey,2006,70,181,102,Wood,4400,176,0
+GaleForce,Playland's Castaway Cove,Ocean City,New Jersey,2017,64,125,60,Steel,1269,100,2
+Wild Waves,Playland's Castaway Cove,Ocean City,New Jersey,2017,64,50,97,Steel,,,0
+Green Lantern,Six Flags Great Adventure,Jackson,New Jersey,2011,63,154,150,Steel,4155,144,5
+TMNT Shellraiser,Nickelodeon Universe Theme Park,East Rutherford,New Jersey,2019,62.1,141,112,Steel,3280.8,138,7
+Dark Knight,Six Flags Great Adventure,Jackson,New Jersey,2008,55,117.8,120,Steel,1213,45,0
+Superman - Ultimate Flight,Six Flags Great Adventure,Jackson,New Jersey,2003,51,106,126,Steel,2759,100,2
+Looping Star,Keansburg Amusement Park,Keansburg,New Jersey,2015,48,36.1,77,Steel,1197.5,32,1
+Hydrus,Casino Pier,Seaside Heights,New Jersey,2017,45,72,73,Steel,1050,70,3
+Joker,Six Flags Great Adventure,Jackson,New Jersey,2016,38,120,60,Steel,1019,54,0
+Nickelodeon Slime Streak,Nickelodeon Universe Theme Park,East Rutherford,New Jersey,2019,37,70,70,Steel,1263,,0
+Shredder,Nickelodeon Universe Theme Park,East Rutherford,New Jersey,2019,36,141,,Steel,2247,138,0
+Runaway Tram,Morey's Piers,Wildwood,New Jersey,2019,28.6,36.1,,Steel,921.9,40,0
+FunCoaster,Funplex,Mount Laurel,New Jersey,2013,26.7,36.1,100,Steel,1017.1,,0
+Doo Wopper,Morey's Piers,Wildwood,New Jersey,2005,25,35,75,Steel,885,15,0
+Hot Tamales,Casino Pier,Seaside Heights,New Jersey,2003,14.1,11.8,109,Steel,196.8,,0
+Tidal Wave,Jenkinson's Boardwalk,Point Pleasant Beach,New Jersey,2019,11.2,20,,Steel,393.7,,0
+Wacky Worm,Gillian's Wonderland Pier,Ocean City,New Jersey,2012,10,13,30,Steel,444,12,0
+Freedom Rider,iPlay America,Freehold,New Jersey,2016,,14,,Steel,190,,0
+Hang Ten,Fantasy Island Amusement Park,Beach Haven,New Jersey,2017,,14,,Steel,180,,0
+Whirlwind,Playland's Castaway Cove,Ocean City,New Jersey,2016,,14,,Steel,190,,0
+Bubbles The Coaster,Storybook Land,Egg Harbor Township,New Jersey,2000,,16,84,Steel,,,0
+Pirates Hideaway,Casino Pier,Seaside Heights,New Jersey,2007,,17,79,Steel,,,0
+Cyclone,Luna Park,Brooklyn,New York,1927,60,75,110,Wood,2850.3,58.6,0
+Jack Rabbit,Seabreeze,Rochester,New York,1920,50,60,115,Wood,2130,75,0
+Bobsleds,Seabreeze,Rochester,New York,1954,23,31,89,Steel,1240,16,0
+Little Dipper,Midway State Park,Bemus Point,New York,1956,7,12,50,Steel,280,6,0
+Dragon Coaster,Playland Park,Rye,New York,1929,45,80,120,Wood,3400,60,0
+Kiddy Coaster,Playland Park,Rye,New York,1928,,18,73,Wood,300,10,0
+Ride of Steel,Six Flags Darien Lake,Darien Center,New York,1999,73,208,122,Steel,5400,205,0
+Comet,Great Escape,Queensbury,New York,1994,55,95,120,Wood,4197,87,0
+Viper,Six Flags Darien Lake,Darien Center,New York,1982,50,121,124,Steel,3100,75,5
+Predator,Six Flags Darien Lake,Darien Center,New York,1990,50,95,110,Wood,3400,87,0
+Mind Eraser,Six Flags Darien Lake,Darien Center,New York,1997,49.7,109.3,85,Steel,2260.5,86,5
+Sea Serpent,Deno's Wonder Wheel Amusement Park,Brooklyn,New York,1999,47,125,110,Steel,950,116,0
+Boomerang Coast to Coaster,Six Flags Darien Lake,Darien Center,New York,1998,47,116.5,108,Steel,935,116,3
+Flashback,Great Escape,Queensbury,New York,1997,47,116.5,108,Steel,935,,3
+Steamin' Demon,Great Escape,Queensbury,New York,1984,45,95,90,Steel,1565,65,3
+Alpine Bobsled,Great Escape,Queensbury,New York,1998,35,64,100,Steel,1490,20,0
+Galaxi,Sylvan Beach Amusement Park,Sylvan Beach,New York,1993,35,45,122,Steel,1650,32,0
+Hoot N Holler,Six Flags Darien Lake,Darien Center,New York,1981,16.2,10.8,,Steel,197.5,,0
+Bear Trax,Seabreeze,Rochester,New York,1997,15,15,52,Steel,380,12,0
+Roller Coaster,Boomers Family Fun Center,Medford,New York,1999,,13,,Steel,262.5,,0
+Thunderbolt,Luna Park,Brooklyn,New York,2014,55.9,114.8,38,Steel,2234.3,112,4
+Tantrum,Six Flags Darien Lake,Darien Center,New York,2018,52.8,98.4,60,Steel,1246.7,97,3
+Canyon Blaster,Great Escape,Queensbury,New York,2003,45,56,150,Steel,2036,,0
+Turbulence,Adventureland,Farmingdale,New York,2015,40,55,,Steel,1253.3,,0
+Whirlwind,Seabreeze,Rochester,New York,2004,37.3,50.8,70,Steel,1391.1,,0
+Moto Coaster,Six Flags Darien Lake,Darien Center,New York,2008,37.3,42.7,,Steel,1194.2,,0
+Steeplechase,Luna Park,Brooklyn,New York,2011,37.3,42.7,,Steel,1194.2,,0
+Crazy Mouse,Playland Park,Rye,New York,2003,31.1,41,80,Steel,1234,,0
+Soarin' Eagle,Luna Park,Brooklyn,New York,2011,25.7,50,48,Steel,1282.8,17,2
+Super Flight,Playland Park,Rye,New York,2004,25.7,50,48,Steel,1282.8,,2
+Rattlesnake Coaster,Adventureland,Farmingdale,New York,2000,19.9,19.7,,Steel,652.9,,0
+Circus Coaster,Luna Park,Brooklyn,New York,2010,18.6,29.5,118,Steel,574.2,,0
+Frankie's Mine Train,Great Escape,Queensbury,New York,2005,16.1,13,,Steel,262.5,10,0
+Corona Cobra Coaster,Fantasy Forest at the Flushing Meadows Carousel,Flushing,New York,2013,10,11.5,59,Steel,300,10,0
+Family Flyer,Playland Park,Rye,New York,2001,8,13,30,Steel,262.5,9,0
+Dragon Coaster,Castle Fun Center,Chester,New York,2018,8,9,45,Steel,,,0
+Mini Mouse,Victorian Gardens,New York,New York,2003,,8,50,Steel,262,,0
+Tickler,Luna Park,Brooklyn,New York,2010,,,144,Steel,1377.9,,0
+Thunderbolt,Kennywood,West Mifflin,Pennsylvania,1924,55,70,101,Wood,3250,90,0
+Comet,Hersheypark,Hershey,Pennsylvania,1946,50,84,105,Wood,3360,78,0
+Jack Rabbit,Kennywood,West Mifflin,Pennsylvania,1920,45,40,96,Wood,2132,70,0
+Thunderhawk,Dorney Park & Wildwater Kingdom,Allentown,Pennsylvania,1924,45,80,78,Wood,2767,65,0
+Racer,Kennywood,West Mifflin,Pennsylvania,1927,40,72.5,92,Wood,4500,50,0
+Trailblazer,Hersheypark,Hershey,Pennsylvania,1974,35,43,75,Steel,1874,,0
+Comet,Waldameer,Erie,Pennsylvania,1951,25,37,84,Wood,1300,25,0
+Rollo Coaster,Idlewild & SoakZone,Ligonier,Pennsylvania,1938,25,27,75,Wood,900,25,0
+Little Dipper,Conneaut Lake Park,Conneaut Lake,Pennsylvania,1950,7,12,50,Steel,280,6,0
+Blue Streak,Conneaut Lake Park,Conneaut Lake,Pennsylvania,1938,50,87,140,Wood,2900,79,0
+Sooperdooperlooper,Hersheypark,Hershey,Pennsylvania,1977,45,70,105,Steel,2614,75,1
+Phantom's Revenge,Kennywood,West Mifflin,Pennsylvania,1991,85,160,117,Steel,3200,228,0
+Steel Force,Dorney Park & Wildwater Kingdom,Allentown,Pennsylvania,1997,75,200,180,Steel,5600,205,0
+Great Bear,Hersheypark,Hershey,Pennsylvania,1998,58,90,175,Steel,2800,124,4
+Twister,Knoebels Amusement Resort,Elysburg,Pennsylvania,1999,51.5,101.6,130,Wood,3900,89.6,0
+Wildcat,Hersheypark,Hershey,Pennsylvania,1996,50,106,136,Wood,3183,85.2,0
+Sidewinder,Hersheypark,Hershey,Pennsylvania,1991,47,116.5,108,Steel,935,105,3
+Phoenix,Knoebels Amusement Resort,Elysburg,Pennsylvania,1985,45,78,120,Wood,3200,72,0
+Kingdom Coaster,Dutch Wonderland,Lancaster,Pennsylvania,1992,40,55,90,Wood,2000,50,0
+Wild Mouse,Idlewild & SoakZone,Ligonier,Pennsylvania,1993,30,56,99,Steel,1640,,0
+Exterminator,Kennywood,West Mifflin,Pennsylvania,1999,29.1,42.7,108,Steel,1377.9,50,0
+Wild Mouse,Hersheypark,Hershey,Pennsylvania,1999,28,45.9,110,Steel,1213.9,25,0
+Vapor Trail,Sesame Place,Langhorne,Pennsylvania,1998,27,56,75,Steel,1300,43,0
+Lil' Phantom,Kennywood,West Mifflin,Pennsylvania,1996,15,7,30,Steel,154,6,0
+Little Leaper,Lakemont Park,Altoona,Pennsylvania,1993,,15,27,Steel,280,6,0
+Skyliner,Lakemont Park,Altoona,Pennsylvania,1987,40,60,120,Wood,2400,45,0
+Joust,Dutch Wonderland,Lancaster,Pennsylvania,1998,,17,60,Steel,350,,0
+Storm Runner,Hersheypark,Hershey,Pennsylvania,2004,75,150,50,Steel,2600,180,3
+Steel Curtain,Kennywood,West Mifflin,Pennsylvania,2019,75,220,120,Steel,4000,197,8
+Skyrush,Hersheypark,Hershey,Pennsylvania,2012,75,200,63,Steel,3600,186,0
+Possessed,Dorney Park & Wildwater Kingdom,Allentown,Pennsylvania,2008,70,180,60,Steel,704,165,0
+Fahrenheit,Hersheypark,Hershey,Pennsylvania,2008,58,121,85,Steel,2700,115,6
+Talon,Dorney Park & Wildwater Kingdom,Allentown,Pennsylvania,2001,58,135,116,Steel,3110,120,4
+Ravine Flyer II,Waldameer,Erie,Pennsylvania,2008,57,80,90,Wood,2900,118,0
+Impulse,Knoebels Amusement Resort,Elysburg,Pennsylvania,2015,55,98,103,Steel,1975,92,4
+Hydra the Revenge,Dorney Park & Wildwater Kingdom,Allentown,Pennsylvania,2005,53,95,155,Steel,3198,105,7
+Lightning Racer,Hersheypark,Hershey,Pennsylvania,2000,51.1,91.6,140,Wood,3393,90,0
+Sky Rocket,Kennywood,West Mifflin,Pennsylvania,2010,50,95,65,Steel,2100,90,3
+Laff Trakk,Hersheypark,Hershey,Pennsylvania,2015,40,50,70,Steel,1400,50,0
+Merlin's Mayhem,Dutch Wonderland,Lancaster,Pennsylvania,2018,38,60,51,Steel,1300,,0
+Steel Dragon,Waldameer,Erie,Pennsylvania,2004,37.3,50.8,84,Steel,1391.1,,0
+Oscar's Wacky Taxi,Sesame Place,Langhorne,Pennsylvania,2018,34,43,117,Wood,1205,39,0
+Crazy Mouse,DelGrosso's Amusement Park,Tipton,Pennsylvania,2004,29.1,42.7,90,Steel,1377.9,,0
+Wild Mouse,Dorney Park & Wildwater Kingdom,Allentown,Pennsylvania,2000,28,49.3,70,Steel,1213.9,25,0
+Flying Turns,Knoebels Amusement Resort,Elysburg,Pennsylvania,2013,24,50,113,Wood,1300,,0
+Cocoa Cruiser,Hersheypark,Hershey,Pennsylvania,2014,16,13,44,Steel,279,,0
+Black Diamond,Knoebels Amusement Resort,Elysburg,Pennsylvania,2011,12,35,230,Steel,,,0
+Wacky Worm,DelGrosso's Amusement Park,Tipton,Pennsylvania,2004,10,13,30,Steel,444,12,0
+Fiesta Express,Fun Fore All Family Entertainment Center,Cranberry Township,Pennsylvania,2003,,8,120,Steel,262,,0
+Ravine Flyer 3,Waldameer,Erie,Pennsylvania,2000,,15,50,Steel,,14,0
+Kozmo's Kurves,Knoebels Amusement Resort,Elysburg,Pennsylvania,2009,,17,108,Steel,,,0
